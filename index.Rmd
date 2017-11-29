@@ -1,0 +1,48 @@
+---
+title: 임상시험의 통계 원칙
+author: "편집위원장 이선희, 편집위원 한의식, 김소희, 윤경은, 엄정윤, 박소라, 김동환, 전설희, 김미지 (의약품심사부 종양약품과)"
+date: '2015-09'
+knit: "bookdown::render_book"
+# bibliography: ["bib/packages.bib", "bib/references.bib", "ref.bib"]
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+colorlinks: yes
+output:
+  bookdown::gitbook:
+    css: style.css
+    highlight: tango
+    split_by: chapter
+    config:
+      toc:
+        collapse: none
+        before: |
+          <li><a href="./index.html">임상시험의 통계 원칙</a></li>
+        after: |
+          <li><a href="https://github.com/asancpt" target="blank">github.com/asancpt</a></li>
+      #download: [pdf, epub, mobi]
+      edit: https://github.com/asancpt/book-poppk/edit/master/inst/examples/%s
+      sharing:
+        github: yes
+        facebook: yes
+  html_document:
+    theme: united
+---
+
+# 서문 {-}
+
+[<img src="assets/cover.jpg" style="max-width:40%;min-width:40px;float:right;" alt="원본" />](http://www.nifds.go.kr/nifds/08_part/part03_c_b.jsp?mode=view&article_no=7038&pager.offset=0&board_no=167)
+
+```{block2, note-text, type='rmdwarning'}
+이 가이드라인은 집단 약동학에 대한 식품의약품안전처의 입장을 기술한 것으로, 대외적으로 법적 효력을 가지는 것이 아님
+```
+
+```{block2, type = 'rmdnote'}
+가이드라인이란 대외적으로 특정한 사안 등에 대하여 식품의약품안전처의 입장을 기술한 것임(식품의약품안전처 지침등의 관리에 관한 규정(식약처 예규))
+```
+
+본 가이드라인에 대해 의견이나 문의사항이 있을 경우 식품의약품안전처 식품의약품 안전평가원 의약품심사부 종양약품과로 문의하시기 바랍니다.
+
+- 전화 : 043-719-3061
+- 팩스 : 043-719-3050
+
