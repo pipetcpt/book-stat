@@ -10,7 +10,7 @@ link-citations: yes
 colorlinks: yes
 output:
   bookdown::gitbook:
-    css: style.css
+    css: css/style.css
     highlight: tango
     split_by: chapter
     config:
@@ -20,7 +20,7 @@ output:
           <li><a href="./index.html">임상시험의 통계 원칙</a></li>
         after: |
           <li><a href="https://github.com/asancpt" target="blank">github.com/asancpt</a></li>
-      #download: [pdf, epub, mobi]
+      download: [pdf, epub, mobi]
       edit: https://github.com/asancpt/book-poppk/edit/master/inst/examples/%s
       sharing:
         github: yes
@@ -31,7 +31,7 @@ output:
 
 # 서문 {-}
 
-[<img src="assets/cover.jpg" style="max-width:40%;min-width:40px;float:right;" alt="원본" />](http://www.nifds.go.kr/nifds/08_part/part03_c_b.jsp?mode=view&article_no=7038&pager.offset=0&board_no=167)
+[<img src="assets/cover.png" style="max-width:40%;min-width:40px;float:right;" alt="원본" />](http://www.nifds.go.kr/brd/m_18/view.do?seq=6990)
 
 ```{block2, note-text, type='rmdwarning'}
 이 가이드라인은 임상시험의 통계 원칙에 대한 식품의약품안전처의 입장을 기술한 것으로, 대외적으로 법적 효력을 가지는 것이 아님

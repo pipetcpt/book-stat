@@ -1,5 +1,5 @@
 pdf:
-	Rscript --quiet _render.R "bookdown::pdf_book"
+	cp references/임상시험의_통계_원칙.pdf docs/stat.pdf
 
 gitbook:
 	Rscript --quiet _render.R "bookdown::gitbook"
@@ -18,9 +18,6 @@ book:
 
 word2:
 	Rscript -e "bookdown::render_book('index.Rmd', output_format = 'bookdown::word_document2', encoding = 'UTF-8')"
-
-ref:
-	Rscript R/bib.R
 
 index:
 	Rscript -e "rmarkdown::render('index.Rmd', encoding = 'UTF-8')"
